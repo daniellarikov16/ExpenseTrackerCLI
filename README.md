@@ -20,11 +20,11 @@
   pip install tabulate
   ```
 ## Использование
-###Добавление расхода
+### Добавление расхода
   ```bash
   python script.py add --description "Покупка продуктов" --amount 1500
   ```
-###Обновление записи о расходе
+### Обновление записи о расходе
   ```bash
   python script.py update --id 1 --field description --new_value "Покупка одежды"
   ```
